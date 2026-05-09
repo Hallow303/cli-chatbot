@@ -36,7 +36,7 @@
 1.  **저장소 복제:**
 
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/Hallow303/cli-chatbot.git
     ```
 
 2.  **프로젝트 폴더로 이동:**
