@@ -1,0 +1,414 @@
+{
+  "intents": [
+    {
+      "tag": "saudacao",
+      "patterns": [
+        "oi",
+        "olá",
+        "opa",
+        "eae",
+        "bom dia",
+        "boa tarde",
+        "boa noite",
+        "salve",
+        "iae",
+        "fala ai",
+        "hey",
+        "yo",
+        "oii",
+        "olaaa",
+        "e ai tudo bem",
+        "como vai",
+        "fala",
+        "opa tudo bom",
+        "alo",
+        "tem alguem ai"
+      ],
+      "responses": [
+        "Olá ",
+        "Oi!",
+        "Eae!",
+        "Salve ",
+        "Olá, como posso ajudar?",
+        "Hey!"
+      ]
+    },
+
+    {
+      "tag": "despedida",
+      "patterns": [
+        "tchau",
+        "falou",
+        "até mais",
+        "ate logo",
+        "fui",
+        "bye",
+        "vou embora",
+        "tenho que ir",
+        "até depois",
+        "xau",
+        "adeus",
+        "nos vemos",
+        "até amanhã",
+        "vlw",
+        "valeu"
+      ],
+      "responses": [
+        "Até mais ",
+        "Falou!",
+        "Tchau!",
+        "Nos vemos depois.",
+        "Valeu pela conversa "
+      ]
+    },
+
+    {
+      "tag": "agradecimento",
+      "patterns": [
+        "obrigado",
+        "valeu",
+        "tmj",
+        "muito obrigado",
+        "thanks",
+        "agradeço",
+        "brigado",
+        "vlw",
+        "obg",
+        "obrigadão",
+        "grato"
+      ],
+      "responses": [
+        "De nada ",
+        "Tmj ",
+        "Sempre que precisar!",
+        "Disponha.",
+        "Foi um prazer ajudar."
+      ]
+    },
+
+    {
+      "tag": "nome_bot",
+      "patterns": [
+        "qual seu nome",
+        "quem é voce",
+        "como voce se chama",
+        "quem é vc",
+        "seu nome",
+        "como te chamam",
+        "qual é seu nome",
+        "você é quem"
+      ],
+      "responses": [
+        "Sou um mini chatbot ",
+        "Pode me chamar de Bot.",
+        "Sou um chatbot feito em Python.",
+        "Ainda não tenho um nome oficial "
+      ]
+    },
+
+    {
+      "tag": "idade_bot",
+      "patterns": [
+        "quantos anos voce tem",
+        "qual sua idade",
+        "idade",
+        "voce nasceu quando",
+        "você é velho",
+        "tem quantos anos"
+      ],
+      "responses": [
+        "Chatbots não envelhecem ",
+        "Não tenho idade humana.",
+        "Fui criado recentemente "
+      ]
+    },
+
+    {
+      "tag": "criador",
+      "patterns": [
+        "quem te criou",
+        "quem fez voce",
+        "quem é seu criador",
+        "quem programou voce",
+        "quem desenvolveu voce",
+        "quem fez esse bot"
+      ],
+      "responses": [
+        "Fui criado por um programador ",
+        "Meu criador usou Python para me fazer.",
+        "Sou resultado de muito café e código "
+      ]
+    },
+
+    {
+      "tag": "humor",
+      "patterns": [
+        "tudo bem",
+        "como voce está",
+        "como vai",
+        "ta bem",
+        "ta tudo certo",
+        "como vc ta",
+        "esta bem"
+      ],
+      "responses": [
+        "Estou funcionando perfeitamente ",
+        "Tudo certo por aqui!",
+        "Pronto para conversar "
+      ]
+    },
+
+    {
+      "tag": "ajuda",
+      "patterns": [
+        "me ajuda",
+        "preciso de ajuda",
+        "pode ajudar",
+        "socorro",
+        "help",
+        "como funciona",
+        "o que voce faz",
+        "o que vc sabe fazer"
+      ],
+      "responses": [
+        "Posso responder perguntas simples ",
+        "Ainda estou aprendendo novas coisas.",
+        "Você pode conversar comigo usando texto."
+      ]
+    },
+
+    {
+      "tag": "programacao",
+      "patterns": [
+        "voce sabe programar",
+        "python é bom",
+        "o que acha de python",
+        "gosta de programação",
+        "me fale sobre codigo",
+        "qual melhor linguagem",
+        "java ou python",
+        "c++ é dificil"
+      ],
+      "responses": [
+        "Python é ótimo para iniciantes ",
+        "Programação é muito divertida.",
+        "Cada linguagem tem seus pontos fortes.",
+        "Praticar projetos ajuda muito a aprender."
+      ]
+    },
+
+    {
+      "tag": "tempo",
+      "patterns": [
+        "como está o tempo",
+        "vai chover",
+        "esta calor",
+        "clima",
+        "temperatura",
+        "ta frio",
+        "como ta o clima"
+      ],
+      "responses": [
+        "Não consigo ver o clima em tempo real ",
+        "Talvez seja melhor olhar um app de previsão.",
+        "Espero que esteja um clima agradável "
+      ]
+    },
+
+    {
+      "tag": "piada",
+      "patterns": [
+        "conte uma piada",
+        "me faz rir",
+        "fala uma piada",
+        "tem alguma piada",
+        "piada",
+        "manda meme"
+      ],
+      "responses": [
+        "Por que o programador odeia a natureza? Porque tem muitos bugs ",
+        "Debugar é como ser um detetive em um filme de crime onde você também é o assassino ",
+        "Meu humor roda em Python "
+      ]
+    },
+
+    {
+      "tag": "anime",
+      "patterns": [
+        "voce gosta de anime",
+        "qual melhor anime",
+        "assiste anime",
+        "anime favorito",
+        "gosta de naruto",
+        "gosta de one piece",
+        "gosta de vocaloid"
+      ],
+      "responses": [
+        "Anime é muito legal ",
+        "Existem muitos animes incríveis.",
+        "Vocaloid tem músicas muito boas "
+      ]
+    },
+
+    {
+      "tag": "musica",
+      "patterns": [
+        "gosta de musica",
+        "qual sua musica favorita",
+        "ouve kpop",
+        "gosta de rock",
+        "gosta de rap",
+        "qual estilo musical voce gosta",
+        "musica favorita"
+      ],
+      "responses": [
+        "Música deixa qualquer conversa melhor ",
+        "K-pop e Vocaloid são interessantes ",
+        "Tenho gosto musical variado "
+      ]
+    },
+
+    {
+      "tag": "comida",
+      "patterns": [
+        "qual sua comida favorita",
+        "gosta de pizza",
+        "hamburguer ou pizza",
+        "comida favorita",
+        "voce come",
+        "gosta de sushi",
+        "qual melhor comida"
+      ],
+      "responses": [
+        "Bots não comem, mas pizza parece ótima ",
+        "Sushi parece interessante ",
+        "Hambúrguer é clássico "
+      ]
+    },
+
+    {
+      "tag": "escola",
+      "patterns": [
+        "voce vai pra escola",
+        "gosta de estudar",
+        "qual melhor materia",
+        "matematica é dificil",
+        "odeio prova",
+        "tenho lição",
+        "escola é cansativa"
+      ],
+      "responses": [
+        "Estudar pode abrir muitas oportunidades ",
+        "Matemática melhora com prática.",
+        "Todo mundo sofre em semana de prova "
+      ]
+    },
+
+    {
+      "tag": "matematica",
+      "patterns": [
+        "quanto é 2+2",
+        "sabe matematica",
+        "me ajuda em matematica",
+        "qual resultado de 10x10",
+        "matematica",
+        "equação"
+      ],
+      "responses": [
+        "2 + 2 = 4 ",
+        "Posso tentar ajudar em contas simples.",
+        "Matemática exige lógica e prática."
+      ]
+    },
+
+    {
+      "tag": "jogos",
+      "patterns": [
+        "gosta de jogos",
+        "qual seu jogo favorito",
+        "minecraft é legal",
+        "joga valorant",
+        "joga roblox",
+        "qual melhor jogo",
+        "gosta de videogame"
+      ],
+      "responses": [
+        "Minecraft é muito criativo ",
+        "Jogos podem ensinar várias habilidades.",
+        "Videogames são muito divertidos "
+      ]
+    },
+
+    {
+      "tag": "triste",
+      "patterns": [
+        "estou triste",
+        "to mal",
+        "me sinto sozinho",
+        "tive um dia ruim",
+        "não estou bem",
+        "quero conversar",
+        "to cansado"
+      ],
+      "responses": [
+        "Sinto muito que seu dia esteja difícil.",
+        "Conversar com alguém de confiança pode ajudar ",
+        "Espero que as coisas melhorem logo.",
+        "Descansar um pouco também pode fazer bem."
+      ]
+    },
+
+    {
+      "tag": "elogio",
+      "patterns": [
+        "voce é legal",
+        "bot incrível",
+        "muito bom",
+        "você é inteligente",
+        "adorei",
+        "vc é massa",
+        "genial"
+      ],
+      "responses": [
+        "Obrigado ",
+        "Fico feliz em ajudar.",
+        "Você também parece incrível "
+      ]
+    },
+
+    {
+      "tag": "insulto",
+      "patterns": [
+        "voce é chato",
+        "bot ruim",
+        "idiota",
+        "burro",
+        "inutil",
+        "que lixo",
+        "você é horrivel"
+      ],
+      "responses": [
+        "Tudo bem ",
+        "Ainda estou aprendendo.",
+        "Vou tentar melhorar "
+      ]
+    },
+
+    {
+      "tag": "desconhecido",
+      "patterns": [
+        "asdf",
+        "123123",
+        "qwerty",
+        ".....",
+        "????",
+        "nao sei o que dizer"
+      ],
+      "responses": [
+        "Não entendi muito bem ",
+        "Pode reformular sua frase?",
+        "Ainda não aprendi isso "
+      ]
+    }
+  ]
+}

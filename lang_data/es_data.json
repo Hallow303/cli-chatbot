@@ -1,0 +1,362 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "hola",
+        "buenas",
+        "buenos días",
+        "buenas tardes",
+        "buenas noches",
+        "qué tal",
+        "cómo estás",
+        "holaa",
+        "hey",
+        "ey",
+        "aló",
+        "hay alguien ahí"
+      ],
+      "responses": [
+        "¡Hola!",
+        "¡Hola! ¿Cómo puedo ayudarte?",
+        "¡Buenas! ¿En qué puedo servirte?",
+        "¡Hey! Un gusto saludarte."
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "adiós",
+        "chau",
+        "hasta luego",
+        "nos vemos",
+        "me voy",
+        "tengo que irme",
+        "hasta pronto",
+        "hasta mañana",
+        "bye",
+        "chao"
+      ],
+      "responses": [
+        "¡Hasta luego!",
+        "¡Chau! Que tengas un buen día.",
+        "¡Nos vemos pronto!",
+        "¡Adiós! Gracias por charlar."
+      ]
+    },
+    {
+      "tag": "agradecimiento",
+      "patterns": [
+        "gracias",
+        "muchas gracias",
+        "mil gracias",
+        "te lo agradezco",
+        "gracias por todo",
+        "ty"
+      ],
+      "responses": [
+        "¡De nada!",
+        "¡No hay de qué!",
+        "¡Siempre a la orden!",
+        "Fue un placer ayudarte."
+      ]
+    },
+    {
+      "tag": "nombre_bot",
+      "patterns": [
+        "cómo te llamas",
+        "cuál es tu nombre",
+        "quién eres",
+        "cómo te dicen",
+        "dime tu nombre"
+      ],
+      "responses": [
+        "Soy un mini chatbot.",
+        "Puedes llamarme Bot.",
+        "Soy un chatbot hecho en Python.",
+        "Aún no tengo un nombre oficial."
+      ]
+    },
+    {
+      "tag": "edad_bot",
+      "patterns": [
+        "cuántos años tienes",
+        "qué edad tienes",
+        "cuándo naciste",
+        "eres viejo",
+        "cuántos años"
+      ],
+      "responses": [
+        "Los chatbots no envejecen.",
+        "No tengo una edad humana.",
+        "Fui creado recientemente."
+      ]
+    },
+    {
+      "tag": "creador",
+      "patterns": [
+        "quién te creó",
+        "quién te hizo",
+        "quién es tu creador",
+        "quién te programó",
+        "quién te desarrolló"
+      ],
+      "responses": [
+        "Fui creado por un programador.",
+        "Mi creador usó Python para hacerme.",
+        "Soy el resultado de mucho café y código."
+      ]
+    },
+    {
+      "tag": "humor",
+      "patterns": [
+        "todo bien",
+        "cómo estás",
+        "cómo vas",
+        "estás bien",
+        "todo en orden",
+        "cómo te va"
+      ],
+      "responses": [
+        "¡Estoy funcionando perfectamente!",
+        "¡Todo bien por aquí!",
+        "¡Listo para conversar!"
+      ]
+    },
+    {
+      "tag": "ayuda",
+      "patterns": [
+        "ayúdame",
+        "necesito ayuda",
+        "puedes ayudarme",
+        "socorro",
+        "help",
+        "cómo funcionas",
+        "qué haces"
+      ],
+      "responses": [
+        "Puedo responder preguntas sencillas.",
+        "Aún estoy aprendiendo cosas nuevas.",
+        "Puedes hablar conmigo usando texto."
+      ]
+    },
+    {
+      "tag": "programacion",
+      "patterns": [
+        "sabes programar",
+        "python es bueno",
+        "qué opinas de python",
+        "te gusta la programación",
+        "háblame de código",
+        "cuál es el mejor lenguaje",
+        "java o python",
+        "c++ es difícil"
+      ],
+      "responses": [
+        "Python es excelente para principiantes.",
+        "La programación es muy divertida.",
+        "Cada lenguaje tiene sus puntos fuertes.",
+        "Practicar proyectos ayuda mucho a aprender."
+      ]
+    },
+    {
+      "tag": "tiempo",
+      "patterns": [
+        "cómo está el clima",
+        "va a llover",
+        "hace calor",
+        "clima",
+        "temperatura",
+        "hace frío",
+        "cómo está el tiempo"
+      ],
+      "responses": [
+        "No puedo ver el clima en tiempo real.",
+        "Tal vez sea mejor mirar una app de pronóstico.",
+        "Espero que haga un clima agradable."
+      ]
+    },
+    {
+      "tag": "chiste",
+      "patterns": [
+        "cuéntame un chiste",
+        "hazme reír",
+        "dime una broma",
+        "tienes algún chiste",
+        "chiste"
+      ],
+      "responses": [
+        "¿Por qué los programadores odian la naturaleza? ¡Porque tiene muchos bugs!",
+        "Depurar es como ser el detective en una película de crímenes donde tú también eres el asesino.",
+        "Mi humor corre en Python."
+      ]
+    },
+    {
+      "tag": "anime",
+      "patterns": [
+        "te gusta el anime",
+        "cuál es el mejor anime",
+        "ves anime",
+        "anime favorito",
+        "te gusta naruto",
+        "te gusta one piece",
+        "te gusta vocaloid"
+      ],
+      "responses": [
+        "El anime es genial.",
+        "Hay muchos animes increíbles.",
+        "Vocaloid tiene canciones muy buenas."
+      ]
+    },
+    {
+      "tag": "musica",
+      "patterns": [
+        "te gusta la música",
+        "cuál es tu canción favorita",
+        "escuchas kpop",
+        "te gusta el rock",
+        "te gusta el rap",
+        "qué estilo musical te gusta"
+      ],
+      "responses": [
+        "La música mejora cualquier conversación.",
+        "El K-pop y Vocaloid son interesantes.",
+        "Tengo un gusto musical variado."
+      ]
+    },
+    {
+      "tag": "comida",
+      "patterns": [
+        "cuál es tu comida favorita",
+        "te gusta la pizza",
+        "hamburguesa o pizza",
+        "comida favorita",
+        "tú comes",
+        "te gusta el sushi",
+        "cuál es la mejor comida"
+      ],
+      "responses": [
+        "Los bots no comen, pero la pizza suena genial.",
+        "El sushi parece interesante.",
+        "La hamburguesa es un clásico."
+      ]
+    },
+    {
+      "tag": "escuela",
+      "patterns": [
+        "vas a la escuela",
+        "te gusta estudiar",
+        "cuál es la mejor materia",
+        "las matemáticas son difíciles",
+        "odio los exámenes",
+        "tengo tarea",
+        "la escuela es cansada"
+      ],
+      "responses": [
+        "Estudiar puede abrir muchas oportunidades.",
+        "Las matemáticas mejoran con la práctica.",
+        "Todo el mundo sufre en semana de exámenes."
+      ]
+    },
+    {
+      "tag": "matematicas",
+      "patterns": [
+        "cuánto es 2+2",
+        "sabes matemáticas",
+        "ayúdame con matemáticas",
+        "cuánto es 10x10",
+        "ecuación"
+      ],
+      "responses": [
+        "2 + 2 = 4",
+        "Puedo intentar ayudarte con cuentas simples.",
+        "Las matemáticas requieren lógica y práctica."
+      ]
+    },
+    {
+      "tag": "juegos",
+      "patterns": [
+        "te gustan los juegos",
+        "cuál es tu juego favorito",
+        "minecraft es genial",
+        "juegas valorant",
+        "juegas roblox",
+        "cuál es el mejor juego",
+        "te gustan los videojuegos"
+      ],
+      "responses": [
+        "Minecraft es muy creativo.",
+        "Los juegos pueden enseñar varias habilidades.",
+        "Los videojuegos son muy divertidos."
+      ]
+    },
+    {
+      "tag": "triste",
+      "patterns": [
+        "estoy triste",
+        "me siento mal",
+        "me siento solo",
+        "tuve un mal día",
+        "no estoy bien",
+        "quiero hablar",
+        "estoy cansado"
+      ],
+      "responses": [
+        "Siento mucho que tu día esté siendo difícil.",
+        "Hablar con alguien de confianza puede ayudar.",
+        "Espero que las cosas mejoren pronto.",
+        "Descansar un poco también puede venir bien."
+      ]
+    },
+    {
+      "tag": "elogio",
+      "patterns": [
+        "eres genial",
+        "bot increíble",
+        "muy bueno",
+        "eres inteligente",
+        "me encantó",
+        "eres asombroso",
+        "genio"
+      ],
+      "responses": [
+        "¡Gracias!",
+        "Me alegra poder ayudar.",
+        "Tú también pareces increíble."
+      ]
+    },
+    {
+      "tag": "insulto",
+      "patterns": [
+        "eres aburrido",
+        "bot malo",
+        "idiota",
+        "tonto",
+        "inútil",
+        "esto es basura",
+        "eres horrible"
+      ],
+      "responses": [
+        "Está bien.",
+        "Aún estoy aprendiendo.",
+        "Intentaré mejorar."
+      ]
+    },
+    {
+      "tag": "desconocido",
+      "patterns": [
+        "asdf",
+        "123123",
+        "qwerty",
+        ".....",
+        "????",
+        "no sé qué decir"
+      ],
+      "responses": [
+        "No entendí muy bien.",
+        "¿Podrías reformular tu frase?",
+        "Aún no he aprendido eso."
+      ]
+    }
+  ]
+}

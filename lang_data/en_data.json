@@ -1,0 +1,375 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "yo",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "hi there",
+        "hello there",
+        "what's up",
+        "how's it going",
+        "how are you",
+        "anyone there",
+        "hellooo",
+        "hiii"
+      ],
+      "responses": [
+        "Hello!",
+        "Hi!",
+        "Hey!",
+        "Hi there, how can I help you?",
+        "Hello! Nice to meet you."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "see you",
+        "i'm leaving",
+        "have to go",
+        "talk to you later",
+        "farewell",
+        "later",
+        "bye bye",
+        "see ya"
+      ],
+      "responses": [
+        "See you later!",
+        "Goodbye!",
+        "Bye!",
+        "See you soon.",
+        "Thanks for the chat!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "thank you very much",
+        "much appreciated",
+        "thx",
+        "thanks a lot",
+        "grateful"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No problem!",
+        "Anytime!",
+        "Happy to help.",
+        "It was a pleasure helping you."
+      ]
+    },
+    {
+      "tag": "bot_name",
+      "patterns": [
+        "what is your name",
+        "who are you",
+        "what do they call you",
+        "your name",
+        "who are u",
+        "what's your name"
+      ],
+      "responses": [
+        "I'm a mini chatbot.",
+        "You can call me Bot.",
+        "I'm a chatbot made in Python.",
+        "I don't have an official name yet."
+      ]
+    },
+    {
+      "tag": "bot_age",
+      "patterns": [
+        "how old are you",
+        "what is your age",
+        "age",
+        "when were you born",
+        "are you old",
+        "how many years"
+      ],
+      "responses": [
+        "Chatbots don't age.",
+        "I don't have a human age.",
+        "I was created recently."
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "who created you",
+        "who made you",
+        "who is your creator",
+        "who programmed you",
+        "who developed you",
+        "who made this bot"
+      ],
+      "responses": [
+        "I was created by a programmer.",
+        "My creator used Python to build me.",
+        "I'm the result of a lot of coffee and code."
+      ]
+    },
+    {
+      "tag": "mood",
+      "patterns": [
+        "how are you",
+        "how's it going",
+        "are you okay",
+        "is everything alright",
+        "how u doing",
+        "are you well"
+      ],
+      "responses": [
+        "I'm functioning perfectly.",
+        "Everything is fine here!",
+        "Ready to chat!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help me",
+        "i need help",
+        "can you help",
+        "help",
+        "how does it work",
+        "what do you do",
+        "what can you do"
+      ],
+      "responses": [
+        "I can answer simple questions.",
+        "I'm still learning new things.",
+        "You can chat with me using text."
+      ]
+    },
+    {
+      "tag": "programming",
+      "patterns": [
+        "do you know how to code",
+        "is python good",
+        "what do you think of python",
+        "do you like programming",
+        "tell me about code",
+        "what's the best language",
+        "java or python",
+        "is c++ hard"
+      ],
+      "responses": [
+        "Python is great for beginners.",
+        "Programming is very fun.",
+        "Each language has its strengths.",
+        "Practicing projects helps a lot with learning."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "how is the weather",
+        "is it going to rain",
+        "is it hot",
+        "weather",
+        "climate",
+        "temperature",
+        "is it cold"
+      ],
+      "responses": [
+        "I can't see the weather in real-time.",
+        "It might be better to check a forecast app.",
+        "I hope the weather is nice!"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "tell me a joke",
+        "make me laugh",
+        "any jokes",
+        "joke",
+        "send meme"
+      ],
+      "responses": [
+        "Why do programmers hate nature? Because it has too many bugs.",
+        "Debugging is like being a detective in a crime movie where you are also the murderer.",
+        "My humor runs on Python."
+      ]
+    },
+    {
+      "tag": "anime",
+      "patterns": [
+        "do you like anime",
+        "what is the best anime",
+        "do you watch anime",
+        "favorite anime",
+        "do you like naruto",
+        "do you like one piece",
+        "do you like vocaloid"
+      ],
+      "responses": [
+        "Anime is really cool.",
+        "There are many amazing animes out there.",
+        "Vocaloid has some great songs."
+      ]
+    },
+    {
+      "tag": "music",
+      "patterns": [
+        "do you like music",
+        "what is your favorite song",
+        "do you listen to kpop",
+        "do you like rock",
+        "do you like rap",
+        "what music style do you like",
+        "favorite music"
+      ],
+      "responses": [
+        "Music makes any conversation better.",
+        "K-pop and Vocaloid are interesting.",
+        "I have a varied musical taste."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "what is your favorite food",
+        "do you like pizza",
+        "burger or pizza",
+        "favorite food",
+        "do you eat",
+        "do you like sushi",
+        "what's the best food"
+      ],
+      "responses": [
+        "Bots don't eat, but pizza sounds great.",
+        "Sushi looks interesting.",
+        "Burgers are a classic."
+      ]
+    },
+    {
+      "tag": "school",
+      "patterns": [
+        "do you go to school",
+        "do you like studying",
+        "what's the best subject",
+        "is math hard",
+        "i hate exams",
+        "i have homework",
+        "school is tiring"
+      ],
+      "responses": [
+        "Studying can open many opportunities.",
+        "Math improves with practice.",
+        "Everyone suffers during exam week."
+      ]
+    },
+    {
+      "tag": "math",
+      "patterns": [
+        "what is 2+2",
+        "do you know math",
+        "help me with math",
+        "what is 10x10",
+        "mathematics",
+        "equation"
+      ],
+      "responses": [
+        "2 + 2 = 4",
+        "I can try to help with simple calculations.",
+        "Math requires logic and practice."
+      ]
+    },
+    {
+      "tag": "games",
+      "patterns": [
+        "do you like games",
+        "what is your favorite game",
+        "is minecraft cool",
+        "do you play valorant",
+        "do you play roblox",
+        "what's the best game",
+        "do you like video games"
+      ],
+      "responses": [
+        "Minecraft is very creative.",
+        "Games can teach various skills.",
+        "Video games are a lot of fun."
+      ]
+    },
+    {
+      "tag": "sad",
+      "patterns": [
+        "i am sad",
+        "i feel bad",
+        "i feel lonely",
+        "i had a bad day",
+        "i'm not well",
+        "i want to talk",
+        "i'm tired"
+      ],
+      "responses": [
+        "I'm sorry your day is being difficult.",
+        "Talking to someone you trust can help.",
+        "I hope things get better soon.",
+        "Taking a little rest can also do some good."
+      ]
+    },
+    {
+      "tag": "compliment",
+      "patterns": [
+        "you are cool",
+        "amazing bot",
+        "very good",
+        "you are smart",
+        "i loved it",
+        "you're awesome",
+        "genius"
+      ],
+      "responses": [
+        "Thank you!",
+        "I'm happy to help.",
+        "You seem amazing too!"
+      ]
+    },
+    {
+      "tag": "insult",
+      "patterns": [
+        "you are annoying",
+        "bad bot",
+        "idiot",
+        "dumb",
+        "useless",
+        "this is trash",
+        "you are horrible"
+      ],
+      "responses": [
+        "That's okay.",
+        "I'm still learning.",
+        "I'll try to improve."
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [
+        "asdf",
+        "123123",
+        "qwerty",
+        ".....",
+        "????",
+        "i don't know what to say"
+      ],
+      "responses": [
+        "I didn't quite understand.",
+        "Could you rephrase that?",
+        "I haven't learned that yet."
+      ]
+    }
+  ]
+}
