@@ -36,7 +36,7 @@ El chatbot opera cargando datos de intenciones de archivos JSON, que definen pat
 1.  **Clona el repositorio:**
 
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/Hallow303/cli-chatbot.git
     ```
 
 2.  **Navega a la carpeta del proyecto:**
