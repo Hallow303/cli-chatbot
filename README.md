@@ -36,7 +36,7 @@ The chatbot operates by loading intent data from JSON files, which define patter
 1.  **Clone the repository:**
 
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/Hallow303/cli-chatbot.git
     ```
 
 2.  **Navigate to the project folder:**
